@@ -1,4 +1,4 @@
-import { checkDepositRoutes } from './checkDeposit'
+import { checkDepositRoutes } from './checkDepositeRoutes'
 export const routesParents = [
     {
         description:'checkDeposit',
