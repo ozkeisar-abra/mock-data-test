@@ -1,4 +1,7 @@
-export const testObj = {
-    a: 'hello',
-    func: ()=>{console.log('world')}
-}
+export const routesParents = [
+    {
+        description:'checkDeposit',
+        path: '/accounts',
+        routes: checkDepositRoutes
+    },
+]
