@@ -1,3 +1,4 @@
+import { checkDepositRoutes } from './checkDeposit'
 export const routesParents = [
     {
         description:'checkDeposit',
