@@ -1,5 +1,6 @@
-import { checkDepositRoutes } from './checkDepositeRoutes'
-export const routesParents = [
+import checkDepositRoutes from './checkDepositeRoutes';
+
+export default const routesParents = [
     {
         description:'checkDeposit',
         path: '/accounts',
