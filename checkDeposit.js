@@ -1,7 +1,6 @@
 
 const routes = [
 	{
-		filename:'checkDeposit',
 		routePath: '/checkDeposit',
 		method: 'get',
 		activeResponseIndex: 1,
