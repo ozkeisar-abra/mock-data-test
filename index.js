@@ -1,8 +1,8 @@
-import checkDepositRoutes from './checkDepositeRoutes';
+import checkDepositRoutes from './checkDeposit';
 
 const routesParents = [
     {
-        description:'checkDeposit',
+        filename:'checkDeposit',
         path: '/accounts',
         routes: checkDepositRoutes
     },
