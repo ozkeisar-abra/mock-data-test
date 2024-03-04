@@ -1,5 +1,5 @@
 
-const checkDepositRoutes = [
+const routes = [
 	{
 		routePath: '/checkDeposit',
 		method: 'get',
@@ -24,4 +24,4 @@ const checkDepositRoutes = [
 	}
 ]
 
-export default checkDepositRoutes;
+export default routes;
