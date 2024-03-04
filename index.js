@@ -1,9 +1,11 @@
 import checkDepositRoutes from './checkDepositeRoutes';
 
-export default const routesParents = [
+const routesParents = [
     {
         description:'checkDeposit',
         path: '/accounts',
         routes: checkDepositRoutes
     },
 ]
+
+export default routesParents
