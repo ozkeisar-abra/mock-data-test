@@ -3,6 +3,7 @@ const routes = [
 	{
 		routePath: '/checkDeposit',
 		method: 'get',
+		description: 'test route need to work',
 		activeResponseIndex: 1,
 		responses: [
 			{
