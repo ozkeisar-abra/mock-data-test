@@ -12,7 +12,8 @@ const routes = [
 				res: {
 					data: {test:"test"},
 					code: 200,
-				}
+				},
+				type: 'obj',
 			},
 			{
 				name: 'error: user unauthorized',
@@ -20,6 +21,7 @@ const routes = [
 				exec: (req)=>{
 					return { data: {test:'fail'}, code: 400}
 				},
+				type: 'func',
 			},
 		]
 	}
