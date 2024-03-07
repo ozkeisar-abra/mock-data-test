@@ -1,11 +1,8 @@
-import checkDepositRoutes from './checkDeposit';
-
 const routesParents = [
     {
-        filename:'checkDeposit',
-        path: '/accounts',
-        routes: checkDepositRoutes
-    },
-]
+        filename: 'example',
+        path: '/example',
+        routes: require('./example').default,
+    }];
 
-export default routesParents
+export default routesParents;
