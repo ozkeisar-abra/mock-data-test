@@ -5,4 +5,4 @@ const routesParents = [
         routes: require('./example').default,
     }];
 
-export default routesParents;
+module.exports = routesParents;
