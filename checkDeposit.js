@@ -1,30 +1,31 @@
-
 const routes = [
-	{
-		routePath: '/checkDeposit',
-		method: 'get',
-		description: 'test route need to work',
-		activeResponseIndex: 1,
-		responses: [
-			{
-				name: 'good flow',
-				description: "return the user data",
-				res: {
-					data: {test:"test"},
-					code: 200,
-				},
-				type: 'obj',
-			},
-			{
-				name: 'error: user unauthorized',
-				description: "calc user data",
-				exec: (req)=>{
-					return { data: {test:'fail'}, code: 400}
-				},
-				type: 'func',
-			},
-		]
-	}
+  {
+    routePath: '/route',
+    method: 'get',
+    description: 'example route for stub-on-prem',
+    activeResponseIndex: 1,
+    responses: [
+      {
+        name: 'object response example',
+        description: 'return example of object response ',
+        res: {
+          data: {
+            isObj: true,
+          },
+          code: 200,
+        },
+        type: 'obj',
+      },
+      {
+        name: 'func response example',
+        description: 'example of func that return object response',
+        exec: (req) => {
+          return { data: { isFunc: true }, code: 400 }
+        },
+        type: 'func',
+      },
+    ],
+  },
 ]
 
-export default routes;
+export default routes
