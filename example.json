@@ -6,7 +6,7 @@
       "routePath": "/route",
       "method": "get",
       "description": "example route for stub-on-prem",
-      "activeResponseIndex": 1,
+      "activeResponseIndex": 0,
       "responses": [
         {
           "name": "object response example",
@@ -24,6 +24,12 @@
           "description": "example of func that returns object response",
           "exec": "(req) => {\n\treturn { data: { isFunc: true }, code: 400 }\n}",
           "type": "func"
+        },
+        {
+          "name": "proxy response",
+          "description": "example of proxy response",
+          "url": "https://www.jsonkeeper.com/b/ZIA2",
+          "type": "proxy"
         }
       ]
     }
